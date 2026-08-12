@@ -1,4 +1,4 @@
-# 研二完整学习路线（广州 / 深圳｜目标：大模型应用工程师 Java+AI 复合方向）
+# 学习路线
 ## 核心定位
 1. 主打 SpringBoot + SpringAI（Java） 做主线项目；Python 作为快速原型、脚本辅助；重心放在 RAG、Agent、LLM 工程落地。
 2. 避开深度学习训练、基座预训练等高门槛赛道；充分利用你的 Java 基础，形成差异化竞争力。
@@ -14,25 +14,25 @@
 ### 主线 A：Java 定向补强（每日 1～1.5h，配套之前的知识点清单 + 练习）
 #### 1）Java 基础核心（9.1–9.25）
 1. 面向对象：类、接口、抽象类、继承、多态、static/final、访问修饰符
-  ✅练习：Document 文档类、DocumentParser 解析器多态设计
+   ✅练习：Document 文档类、DocumentParser 解析器多态设计
 2. 集合框架：ArrayList、HashMap、ConcurrentHashMap、遍历方式
-  ✅练习：内存文档索引管理
+   ✅练习：内存文档索引管理
 3. Lambda + Stream 流（重点）
-  ✅练习：批量文档过滤、数据转换
+   ✅练习：批量文档过滤、数据转换
 4. IO/NIO 基础 + Files 工具类、异常处理、自定义异常
-  ✅练习：本地文件夹批量读取 txt 文件
+   ✅练习：本地文件夹批量读取 txt 文件
 5. 基础多线程、ThreadPoolExecutor 线程池
-  ✅练习：多线程并行读取文档
+    ✅练习：多线程并行读取文档
 6. Jackson JSON 序列化 / 反序列化
-  ✅练习：对象与 JSON 互相转换
+    ✅练习：对象与 JSON 互相转换
 #### 2）SpringBoot 工程栈（9.26–11.15）
  SpringBoot 项目搭建、yml 配置、IOC 注解体系
  RESTful 接口开发：@Controller/@PostMapping/@GetMapping
  分层架构：Controller → Service → 工具类
  SSE/ResponseBodyEmitter 流式输出（AI 岗位重中之重）
  MyBatis-Plus、MySQL 基础 CRUD
-✅产出简易 Demo：文档基础管理后台（文档新增、列表查询）
-❗重要提醒：不用等 Java 全部学完再碰 AI，同步开启 Python 与 LLM 学习
+ ✅产出简易 Demo：文档基础管理后台（文档新增、列表查询）
+ ❗重要提醒：不用等 Java 全部学完再碰 AI，同步开启 Python 与 LLM 学习
 ### 主线 B：Python 入门（每日 1h，够用即可，不追求精通）
  目标：能写脚本、跑 LangChain 原型、调试开源项目
  Python 基础语法：变量、循环、条件、函数、类
