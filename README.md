@@ -13,7 +13,7 @@
 ## 第一阶段：2026.09–2026.11｜基础夯实阶段
 ### 主线 A：Java 定向补强（每日 1～1.5h，配套之前的知识点清单 + 练习）
 #### 1）Java 基础核心（9.1–9.25）
-1. 面向对象：类、接口、抽象类、继承、多态、static/final、访问修饰符
+1. 面向对象：类、接口、抽象类、继承、多态、static/final、访问修饰符\
    ✅练习：Document 文档类、DocumentParser 解析器多态设计
 2. 集合框架：ArrayList、HashMap、ConcurrentHashMap、遍历方式
    ✅练习：内存文档索引管理
