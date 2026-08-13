@@ -1,7 +1,5 @@
 package com.oo_test.object_array2;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args){
         Student[] sts = new Student[3];
