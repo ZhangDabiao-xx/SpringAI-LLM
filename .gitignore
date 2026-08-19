@@ -35,3 +35,6 @@ replay_pid*
 # 放行需要版本管理的内容
 !/Java_learn/src
 !/Java_learn/pom.xml
+
+# 放行image文件
+!/image
