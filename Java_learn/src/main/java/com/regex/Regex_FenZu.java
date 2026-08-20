@@ -3,7 +3,7 @@ package com.regex;
 public class Regex_FenZu {
     public static void main(String[] args){
         /*
-        * 分组：\\组号 表示把第x组的内容在拿出来用一次
+        * (内部)分组：\\组号 表示把第x组的内容在拿出来用一次
         * */
         //需求1：判断一个字符串的开始部分和结束部分是否一致？单个字符
         // 字符串满足 a1243a &ajfdlka& 4ldfj4 这种类型则返回true;
