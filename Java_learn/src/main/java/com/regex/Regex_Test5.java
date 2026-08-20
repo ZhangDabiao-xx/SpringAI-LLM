@@ -32,7 +32,7 @@ public class Regex_Test5 {
         //需求5
         String regex5 = "ab+?";//非贪婪爬取，尽可能少爬取
 
-        Pattern p = Pattern.compile(regex5);
+        Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(str);
         while(m.find()){
             System.out.println(m.group());
